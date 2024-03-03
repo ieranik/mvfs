@@ -360,7 +360,6 @@ void init(){
             if(doesint1(obsdata[j],to)==true)tmp.push_back(obsdata[j]);
         }
     }
-    //cout<<tmp.size();
 
     //getch();
 

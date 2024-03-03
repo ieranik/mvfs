@@ -700,9 +700,7 @@ vector<seg> gentri(vector<obs> o)
 
     for(i=1;i<sl.size();i++)
     {
-        //cout<<sl.size()<<endl;
         double nang=angle1(sl[i]);
-        //cout<<nang<<endl;
         if(fabs(nang-ang)>eps)
         {
             vector<seg> param;
